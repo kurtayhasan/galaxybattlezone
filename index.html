@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title data-i18n="seo_title">Galaxy Battle Zone - Ücretsiz Uzay Savaş Oyunları</title>
+  <meta name="description" data-i18n="seo_description" content="Galaxy Battle Zone: En iyi ücretsiz HTML5 uzay savaş oyunlarını online oyna. Hemen oyna ve yüksek skora ulaş!">
+  <meta name="keywords" content="space shooter, HTML5 games, uzay oyunu, galaksi savaşları, ücretsiz oyun, play online">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-adsense-account" content="ca-pub-5280507999154958">
+  <meta property="og:title" data-i18n="seo_title" content="Galaxy Battle Zone">
+  <meta property="og:description" data-i18n="seo_ogdesc" content="Ücretsiz online HTML5 uzay savaş oyunları oyna!">
+  <meta property="og:image" content="assets/images/banner1.webp">
+  <meta property="og:url" content="https://galaxybattlezone.com/">
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- AdSense Script -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5280507999154958"
+     crossorigin="anonymous"></script>
+  <script defer src="assets/js/script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <img src="assets/images/logo.svg" alt="Galaxy Battle Zone" class="logo">
+    <h1 data-i18n="site_title">Galaxy Battle Zone</h1>
+    <nav>
+      <a href="#games" data-i18n="nav_games">Oyunlar</a>
+      <a href="#about" data-i18n="nav_about">Hakkında</a>
+      <select id="languageSelect" title="Dil Değiştir">
+        <option value="tr">TR</option>
+        <option value="en">EN</option>
+      </select>
+    </nav>
+  </header>
+
+  <!-- AdSense Banner -->
+  <div class="ad-banner">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-5280507999154958"
+         data-ad-slot="1111111111"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
+
+  <main>
+    <section id="hero" class="hero-section">
+      <div class="hero-content">
+        <h2 data-i18n="hero_headline">Galaksiyi Savun – Ücretsiz Uzay Oyunları Oyna!</h2>
+        <p data-i18n="hero_desc">Asteroitleri yok et, uzaylılarla savaş ve galaksiyi fethet. Hemen oyna ve yüksek puanlara ulaş!</p>
+        <a href="#games" class="cta-button" data-i18n="play_now">Hemen Oyna</a>
+      </div>
+      <img src="assets/images/banner1.webp" alt="Galaxy Battle Zone" class="hero-image">
+    </section>
+    <section id="games" class="games-section">
+      <h3 data-i18n="popular_games">Popüler Oyunlar</h3>
+      <div class="games-grid">
+        <div class="game-card">
+          <img src="https://img.crazygames.com/games/space-battle/cover-1661246057198.png" alt="Space Battle" />
+          <h4>Space Battle</h4>
+          <p data-i18n="game1_desc">Düşmanları yok et, uzayda hayatta kal!</p>
+          <button onclick="showGame('spacebattle')" data-i18n="play_btn">Oyna</button>
+        </div>
+        <div class="game-card">
+          <img src="https://img.crazygames.com/games/galaxy-shooter/cover-1630923871011.png" alt="Galaxy Shooter" />
+          <h4>Galaxy Shooter</h4>
+          <p data-i18n="game2_desc">Hızlı tempolu uzay aksiyonu!</p>
+          <button onclick="showGame('galaxyshooter')" data-i18n="play_btn">Oyna</button>
+        </div>
+        <div class="game-card">
+          <img src="https://img.crazygames.com/games/neon-invaders/cover-1630669198206.png" alt="Neon Invaders" />
+          <h4>Neon Invaders</h4>
+          <p data-i18n="game3_desc">Retro neon uzay istilacıları!</p>
+          <button onclick="showGame('neoninvaders')" data-i18n="play_btn">Oyna</button>
+        </div>
+        <div class="game-card">
+          <img src="https://img.crazygames.com/games/galaxy-warriors/cover-1600689796224.png" alt="Galaxy Warriors" />
+          <h4>Galaxy Warriors</h4>
+          <p data-i18n="game4_desc">Epik patronlar ve sonsuz dalga!</p>
+          <button onclick="showGame('galaxywarriors')" data-i18n="play_btn">Oyna</button>
+        </div>
+        <div class="game-card">
+          <img src="https://img.crazygames.com/games/space-blaze-2/cover-1583249528214.png" alt="Space Blaze 2" />
+          <h4>Space Blaze 2</h4>
+          <p data-i18n="game5_desc">Renkli bullet hell aksiyon!</p>
+          <button onclick="showGame('spaceblaze2')" data-i18n="play_btn">Oyna</button>
+        </div>
+        <div class="game-card">
+          <img src="https://img.crazygames.com/games/asteroid-crusher/cover-1600686671131.png" alt="Asteroid Crusher" />
+          <h4>Asteroid Crusher</h4>
+          <p data-i18n="game6_desc">Asteroitleri parçala, gemini yükselt!</p>
+          <button onclick="showGame('asteroidcrusher')" data-i18n="play_btn">Oyna</button>
+        </div>
+        <div class="game-card">
+          <img src="https://img.crazygames.com/games/space-frontier-online/cover-1608628181689.png" alt="Space Frontier" />
+          <h4>Space Frontier</h4>
+          <p data-i18n="game7_desc">Roketleri derin uzaya fırlat!</p>
+          <button onclick="showGame('spacefrontier')" data-i18n="play_btn">Oyna</button>
+        </div>
+        <div class="game-card">
+          <img src="https://img.crazygames.com/games/jetpack-joyride/cover-1589192608136.png" alt="Jetpack Joyride Space" />
+          <h4>Jetpack Joyride Space</h4>
+          <p data-i18n="game8_desc">Dış uzayda jetpack ile koş!</p>
+          <button onclick="showGame('jetpackjoyride')" data-i18n="play_btn">Oyna</button>
+        </div>
+      </div>
+    </section>
+    <div id="gameModal" class="game-modal" style="display:none;">
+      <div class="modal-content">
+        <button onclick="closeGame()" class="close-btn">✖</button>
+        <iframe id="gameFrame" src="" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+    <div class="ad-rectangle">
+      <ins class="adsbygoogle"
+         style="display:block; text-align:center;"
+         data-ad-client="ca-pub-5280507999154958"
+         data-ad-slot="2222222222"
+         data-ad-format="rectangle"></ins>
+      <script>
+         (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+    </div>
+    <section id="about" class="about-section">
+      <h3 data-i18n="about_title">Galaxy Battle Zone Hakkında</h3>
+      <p data-i18n="about_desc">
+        Galaxy Battle Zone, en iyi uzay savaş oyunlarının portalıdır! Tüm oyunlar mobil uyumlu ve ücretsizdir. Sıralamalarda yarış, turnuvalara katıl ve her hafta yeni içeriklerin tadını çıkar.
+      </p>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div>
+      <img src="assets/images/logo.svg" alt="Galaxy Battle Zone" style="height:32px;vertical-align:middle;">
+      <span>© 2025 GalaxyBattleZone.com</span>
+    </div>
+    <div>
+      <a href="#" id="cookiePolicyLink" data-i18n="cookie_policy">Çerez Politikası</a>
+    </div>
+  </footer>
+  <div id="cookieConsent" class="cookie-consent">
+    <span data-i18n="cookie_text">Sitemiz, deneyiminizi iyileştirmek için çerezler kullanır. Devam ederek çerez politikamızı kabul etmiş olursunuz.</span>
+    <button id="acceptCookies" data-i18n="accept">Kabul Et</button>
+  </div>
+</body>
+</html>
